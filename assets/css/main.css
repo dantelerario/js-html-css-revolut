@@ -49,6 +49,13 @@ nav a:focus {
   align-items: center;
 }
 
+.nav-right .menu {
+  list-style: none;
+}
+.nav-right .menu > li {
+  display: inline-block;
+}
+
 .nav-right .app-button {
   border: 1px solid #EB008E;
   border-radius: 20px;
@@ -72,4 +79,38 @@ nav a:focus {
   font-size: 10px;
   color: #999;
   margin-right: 10px;
+}
+
+/* DROPDOWN */
+
+.link .drop {
+  position: relative;
+}
+
+.nav-right .link .drop-down {
+  position: absolute;
+  top: 60px;
+  right: 800px;
+  width: 300px;
+  text-align: left;
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  padding: 20px;
+  box-shadow: 0px 5px 15px 5px rgba(9,9,9, 0.2);
+}
+
+.nav-right .link .drop-down li {
+  margin: 20px 0;
+  color: #999;
+  cursor: pointer;
+}
+
+.nav-right .link .drop-down li:hover {
+  color: #111;
+}
+
+
+.nav-right .drop-down ul {
+  list-style: none;
 }
