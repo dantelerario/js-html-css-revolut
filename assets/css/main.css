@@ -2,4 +2,39 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+/* UTILITIES */
+
+/* NAV */
+nav {
+  display: flex;
+  width: 1200px;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.nav-left {
+  display: flex;
+  justify-content: flex-start;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.nav-left .logo {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  align-items: center;
 }
