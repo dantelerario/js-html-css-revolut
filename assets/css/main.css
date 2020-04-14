@@ -18,6 +18,16 @@ nav {
 nav a {
   text-decoration: none;
   margin-right: 15px;
+  color: #999;
+  font-weight: 700;
+}
+
+nav a:hover {
+  color: #111;
+}
+
+nav a:focus {
+  color: #111;
 }
 
 .nav-left {
@@ -37,4 +47,29 @@ nav a {
   justify-content: flex-end;
   flex-grow: 1;
   align-items: center;
+}
+
+.nav-right .app-button {
+  border: 1px solid #EB008E;
+  border-radius: 20px;
+  background: #EB008E;
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 10px 20px;
+}
+
+.nav-right .it {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-right .it:hover i {
+  color: #111;
+}
+
+.nav-right .it i {
+  font-size: 10px;
+  color: #999;
+  margin-right: 10px;
 }
